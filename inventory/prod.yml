@@ -3,3 +3,4 @@
     hosts:
       178.154.235.54:
         ansible_user: deploy
+        ansible_connection_type: paramiko
