@@ -7,7 +7,9 @@ pipeline {
       }
     }
     stage('Second stage'){
-      echo "And I'm too"
+      steps {
+        echo "And I'm too"
+      }
     }
   }
 }
