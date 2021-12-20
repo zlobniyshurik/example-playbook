@@ -6,5 +6,8 @@ pipeline {
         echo "I'm runing"  
       }
     }
+    stage('Second stage'){
+      echo "And I'm too"
+    }
   }
 }
